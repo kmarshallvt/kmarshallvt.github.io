@@ -3,15 +3,31 @@
 	margin: 0;
 }
 
-h1 {
+.outer {
 	padding: 40px;
 	margin-left: 60px;
 	color: #0000
 	text-align: left;
-	text-transform: uppercase;
-	text-decoration: underline;
+	
 }
 
+h1 {
+	font-family: Futura, sans-serif;
+}
+
+.hr3 {
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: green;
+}
+
+.hr4 {
+	color: black;
+}
+
+.hr5 {
+	color: black;
+}
 
 
 body {
