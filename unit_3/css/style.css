@@ -3,7 +3,7 @@
 	margin: 0;
 }
 
-h1 {
+header h1 {
 	padding: 40px;
 	margin-left: 60px;
 	color: #0000
@@ -26,7 +26,7 @@ a {
 	text-decoration: none;
 }
 
-nav a {
+header nav a {
 	color: #cccccc;
 	background-color: #222222
 	font-style: 
