@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
 * {
 	padding: 0;
 	margin: 0;
@@ -12,10 +15,12 @@
 }
 
 h1 {
-	font-family: Futura, sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .hr3 {
+	font-family: 'Fredericka the Great', cursive;
+	letter-spacing: .1em;
 	text-transform: uppercase;
 	text-decoration: underline;
 	color: green;
@@ -31,7 +36,7 @@ h1 {
 
 
 body {
-	font-family: Futura, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	color: #222222;
 	line-height: 1.3;
