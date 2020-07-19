@@ -24,7 +24,7 @@ h1 {
 	text-transform: uppercase;
 	text-decoration: none;
 	color: green;
-	border-bottom: 1px solid green;
+	border-bottom: 1px green;
 	padding-bottom: 2px;
 }
 
@@ -51,8 +51,8 @@ a {
 
 nav a {
 	color: #cccccc;
-	background-color: #222222
-	font-style: 
+	background-color: green
+	font-variant: small-caps; 
 	margin-right: 10px;
 	text-align: right;
 
