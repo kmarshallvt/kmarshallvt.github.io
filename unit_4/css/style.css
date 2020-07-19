@@ -22,8 +22,10 @@ h1 {
 	font-family: 'Fredericka the Great', cursive;
 	letter-spacing: .1em;
 	text-transform: uppercase;
-	text-decoration: underline;
+	text-decoration: none;
 	color: green;
+	border-bottom: 1px solid green;
+	padding-bottom: 2px;
 }
 
 .hr4 {
