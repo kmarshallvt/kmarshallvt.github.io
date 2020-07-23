@@ -35,9 +35,11 @@ h1 {
 .hr5 {
 	color: black;
 }
-.utility {
-	color: white;
-	background-color: black;
+div a {
+	color: black;
+	font-variant: small-caps;
+	margin-right: 10px;
+	padding: 2.5px;
 }
 
 
@@ -59,7 +61,7 @@ nav a {
 	font-variant: small-caps; 
 	letter-spacing: .25em;
 	margin-right: 10px;
-	padding: 5px;
+	padding: 1px;
 	text-align: right;
 
 }
