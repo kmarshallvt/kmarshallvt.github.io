@@ -12,6 +12,20 @@
 	color: #0000
 	text-align: left;
 	
+header {
+	background-color: #FFED74;
+}
+aside {
+	background-color: #FFC675
+}
+article {
+	background-color: #E89C6C
+}
+footer {
+	#FF957E
+}
+div/section {
+	background-color: #FFE2B8
 }
 
 h1 {
@@ -57,7 +71,7 @@ a {
 
 nav a {
 	color: white;
-	background-color: green;
+	background-color: #E8C66A;
 	font-variant: small-caps; 
 	letter-spacing: .25em;
 	margin-right: 10px;
