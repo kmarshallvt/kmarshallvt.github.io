@@ -39,7 +39,7 @@
 	line-height: 150%;
 
 }
-hr {width: 60%;margin-left: auto;margin-right: auto;}
+hr {width: 60%;margin-left: auto;margin-right: auto; color: #10943c;}
 	
 header {
 	background-color: #ffffff;
@@ -103,6 +103,10 @@ nav a {
 	padding: 1px;
 	text-align: right;
 	text-decoration: none;
+
+}
+a:hover {
+  color: #10943c;
 }
 
 img {
