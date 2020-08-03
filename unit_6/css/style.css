@@ -96,6 +96,7 @@ body {
 
 
 nav a {
+	float: right;
 	color: black;
 	font-variant: small-caps; 
 	letter-spacing: .25em;
