@@ -16,20 +16,10 @@
 
 
 .left {
-	padding: 4em 0em 4em 4em;
 	float: left;
-	width: 40%;
-	text-align: left;
-	margin-right: 0em;
-	margin-left: 50px;
+	width: 50%;
 }
-.right {
-	padding: 8em 0em 4em 0em;
-	float: right;
-	text-align: left;
-	line-height: 150%;
-	margin-top: 50px;
-}
+
 .whatwedo {
 	text-align: justify;
 	margin-left: auto;
@@ -54,13 +44,9 @@ h2 {
 }
 
 ul {
-	text-align: left;
-	margin-left: auto;
-	margin-right: auto;
-	width: 60%;
-	display: block;
 	margin-bottom: 40px;
-	font-size: 18pt;
+	font-size: 1.25em;
+	padding-left: 1.25em;
 }
 
 .hr3 {
