@@ -134,7 +134,7 @@ a.shop:hover {
 	float: left;
 	text-align: center;
 	line-height: 150%;
-	margin-top: 250px;
+	margin-top: 180px;
 	margin-right: 0px;
 	margin-left: 150px;
 	background-color: #F09907;
@@ -153,8 +153,17 @@ html {
 @media only screen and (max-width: 1300px) {
 	nav a {
 		float: none;
-		text-align: left;
+	}
+@media only screen and (max-width: 1040px) {
+	body {
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width: 1360px) {
+	.IG {
+		float: none;
 	}
 	}
+}
 
 }
