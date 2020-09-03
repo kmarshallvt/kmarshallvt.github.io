@@ -87,10 +87,10 @@ nav a {
 	color: black;
 	font-variant: small-caps; 
 	letter-spacing: .15em;
-	margin-right:40px;
-	padding: .5em;
+	margin-right:0px;
+	padding: .75em;
 	text-decoration: none;
-	margin-top: 60px;
+	margin-top: 0px;
 }
 nav a:hover {
   color: #F09907;
@@ -112,8 +112,9 @@ a.shop {
 	font-weight: bolder;
 }
 a.shop:hover {
-	color: black;
+	color: #F09907;
 	background-color: white;
+	font-weight: boldest;
 }
 .IG {
 	box-sizing: border-box;
@@ -158,12 +159,24 @@ html {
 	body {
 		font-size: 18px;
 	}
+	.left {
+		width: 40%;
+	}
+	h1 {
+		margin-top: 40px;
+	}
 }
 @media only screen and (max-width: 1360px) {
 	.IG {
 		float: none;
 	}
+@media only screen and (max-width: 880px) {
+	nav a {
+		float: none;
+		width: auto;
 	}
+	}
+}
 }
 
 }
