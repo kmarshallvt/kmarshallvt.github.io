@@ -57,7 +57,7 @@ h2 {
 }
 
 ul {
-	font-size: 1.25em;
+	font-size: 1em;
 	padding-left: 1.25em;
 }
 
@@ -87,11 +87,10 @@ nav a {
 	color: black;
 	font-variant: small-caps; 
 	letter-spacing: .15em;
-	margin-right: 60px;
+	margin-right:40px;
 	padding: .5em;
-	text-align: right;
 	text-decoration: none;
-	margin-top: 125px;
+	margin-top: 60px;
 }
 nav a:hover {
   color: #F09907;
@@ -151,13 +150,11 @@ img {
 html {
   font-size: 16px;
 }
-@media screen and (min-width: 320px) {
-  html {
-    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
-  }
-}
-@media screen and (min-width: 1000px) {
-  html {
-    font-size: 22px;
-  }
+@media only screen and (max-width: 1300px) {
+	nav a {
+		float: none;
+		text-align: left;
+	}
+	}
+
 }
